@@ -8,11 +8,7 @@ Models: Logistic Regression, Multinomial Naive Bayes, Stochastic Gradient Descen
 
 The focus of this project is on classifying whether the movie is Drama or Non-Drama based on its story using the Text-Analysis model along with machine learning 
 algorithms. The data used for training consists of 20,000 samples and 3498 samples for evaluation of the model which is stored in an excel file. The data is accessed 
-using the Pandas library. The data is formatted appropriately for training using various text-analysis models like 
-Bag-of-words
-TFIDF
-LDA 
-Word Embedding
+using the Pandas library. The data is formatted appropriately for training using various text-analysis models like Bag-of-words, TFIDF, LDA, Word Embedding.
 
 Various machine learning models are trained to understand their performance on training data for each text-analyzed data and compared to pick the best model for 
 evaluation data. Since the class labels are imbalanced, the Roc-Auc score and F1 score are analyzed for comparison.
